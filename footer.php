@@ -1,0 +1,1 @@
+<div>Copyright de fou</div>
