@@ -1,9 +1,9 @@
 <?php
 try {
     $db = new PDO('mysql:host=localhost;dbname=supdevinci', 'root', '');
-    echo "Connexion à la base de données réussie.<br>";
     $result = $db->query("SELECT * FROM user");
 ?>
+    <h1>Liste des contacts</h1>
     <table border='1'>
         <tr>
             <th>Nom</th>
